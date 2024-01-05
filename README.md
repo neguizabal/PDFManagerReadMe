@@ -13,7 +13,7 @@ You can find me on Teams as well, Nicholas Eguizabal.
 
 > _Note: Pressing the Escape key while the program is selected will close the program!_
 
-Merge
+## Merge
 ---
 The Merge tab is used for
 - Combining PDFs
@@ -88,48 +88,77 @@ The Merge tab is used for
 ### 13. PDF Preview
 > This displays a preview of the PDF created from the selected pages of the open PDFs.
 
-### 14. Batch Selection
+### 14. Batch Control
 > For the health of your computer, PDF files that are larger than 100 pages are broken down into "Batches" of 100 pages each.
 > Use the "Next Batch" and "Previous Batch" buttons to navigate between which 100 page section you would like to view.
 > The currently viewed batch does not change the [[#3. PDF Page Selection|PDF Page Selection]].
 
-### Removing/Duplicating Pages from PDFs
-![](Media/PDFManager_RemovePage.gif)]
+### Removing Pages from PDFs
+![](Media/PDFManager_RemovePage.gif)
 ## Combining PDFs
+![](Media/PDFManager_CombinePDFs.gif)
 
-To combine multiple PDFs into a single PDF, it is pretty much the same process as Removing or Duplicating pages except now you use multiple PDFs.
+### Reorganizing PDF Pages
+![](Media/PDFManager_ReorganizePages.gif)
 
-Now, you just need to open multiple PDFs you want to merge.
+### Selecting a Range of Pages
+![](Media/PDFManager_PageRange.gif)
 
-![[Merge PDF Order.png]]
+### Adding a PNG to a PDF
+![](Media/PDFManager_AddPNG.gif)
 
-As you can see above, the PDFs are merged in the order they are selected but you can skip spaces if you may want to add in a different pdf later. It will ignore empty rows.
+### Navigating Batches
+![](Media/PDFManager_150Pages.gif)
 
-![[Merge Box Skip.png]]
+> __*NOTE*: While the program does use batching to help with performance, excessively large PDF documents will still cause a slow down. Button press animations may not play and the program may seem to not respond but please be patient with it. It is trying its best.__
 
-Remember to press the "Apply" button when you make changes to the Page Ranges.
-Press the "Merge" button when you are satisfied then choose where to save the new PDF and give it a name.
-
-### Reorganizing PDFs
-If you need to change the order of the pages within a PDF, refer back to [[README#Individual Page Examples]]. 
-
-![[Merge Page Reordering.png]]
+#### Excessively Large PDF Example
+![](Media/PDFManager_1000Pages.gif)
 
 ## Rotate
 ---
-1.) Make sure you are on the "Rotate" tab
-![[Pasted image 20231215133146.png]]
+The Rotate tab is used to
+- Rotate PDF pages
+- That is uhhh. . . About it.
 
-2.) Open the PDF you want to edit with the "Open" Button
-![[Pasted image 20231215133201.png]]
+![](Media/RotateTabGuide.png)
 
-3.) Figure out what pages you want to rotate and input them into the correct entry box
-![[Pasted image 20231215133405.png]]
+### 1. Rotate Tab
+> Select this tab to open the Rotate Tab if it is not already open
 
-4.) Press the "Apply Rotate" button and the preview will update
-![[Pasted image 20231215133643.png]]
+### 2. PDF Name/File Path
+> Displays the file path of the PDF you open.
+> PDF will be displayed in [[#8. PDF Preview|PDF Preview]]
 
-> _Note: The rotations will be applied in descending order! If page 1 is set to rotate 90° and then is also set to rotate -90° afterwards, it will be rotated a grand total of 0°._
+### 3. Open Button
+> This button opens a File Dialog Box to select a PDF.
+> Once you have selected your pdf, it will populate the [[#2. PDF Name/File Path|PDF Name]] and displays it on the [[#8. PDF Preview|PDF Preview]]
 
-5.) Press the "Save As" button when you are satisfied with the preview and you will be prompted to name and select where you will save the file.
-![[Pasted image 20231215133926.png]]
+### 4. Page Rotation Selection
+> The text on the left of the Entry box displays the effect that will be applied to the chosen pages.
+> > If you put "1, 2, 3" in the box next to "Pages to Rotate 90°", then only the pages "1, 2, 3" will be rotated that much.
+> Pages will be rotated from the top to the bottom and if a page is in multiple Entry boxes then it will be affected by all transformations.
+> > If Page 1 is in the 90° and the -90°, then it will be rotated both times, resulting in a net change of 0° rotation.
+> You can Right-Click pages in the document to add them to different Entry-Boxes
+
+### 5. Apply Rotate
+> This button will check for any changes within the [[#4. Page Rotation Selection|Page Rotation Selection]] and update the [[#8. PDF Preview|PDF Preview]].
+### 6. Save As Button
+> This button will open a File Dialog box to name and the [[#8. PDF Preview|PDF Preview]] as a new PDF.
+> __Use this to save your PDF! No files are altered or saved until this button has been pressed!__
+
+### 7. Reset Page Selection Button
+> This button resets all changes to the [[#4. Page Rotation Selection|Page Rotation Selection]] and resets the [[#8. PDF Preview|PDF Preview]].
+
+### 8. PDF Preview
+> This displays a preview of the PDF created by altering the opened PDF with your selected rotations.
+
+### 9. Batch Control
+> For the health of your computer, PDF files that are larger than 100 pages are broken down into "Batches" of 100 pages each.
+> Use the "Next Batch" and "Previous Batch" buttons to navigate between which 100 page section you would like to view.
+> The currently viewed batch does not change the [[#4. Page Rotation Selection|Page Rotation Selection]].
+
+### Page Rotation Examples
+![[PDFManager_Rotate1.gif]]
+
+![[PDFManager_Rotate2.gif]]
