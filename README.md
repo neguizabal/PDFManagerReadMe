@@ -159,6 +159,6 @@ The Rotate tab is used to
 > The currently viewed batch does not change the [[#4. Page Rotation Selection|Page Rotation Selection]].
 
 ### Page Rotation Examples
-![[PDFManager_Rotate1.gif]]
+![[Media/PDFManager_Rotate1.gif]]
 
-![[PDFManager_Rotate2.gif]]
+![[Media/PDFManager_Rotate2.gif]]
