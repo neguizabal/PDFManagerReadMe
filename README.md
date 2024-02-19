@@ -1,6 +1,6 @@
 # What Is This
 ---
-PDFManager is a program made by Broward Health's Local Friendly IT Team(Field Services FTW) to help with the basic needs of working with PDF files.
+PDFManager is a program made by ~~_REDACTED_~~ Local Friendly IT Team(Field Services FTW) to help with the basic needs of working with PDF files.
 
 It is meant to merge PDFs, remove pages from PDFs, rotate pages within PDFs, append a screenshot (PNG Image Specifically), and add already existing PDF pages to duplicate or take from one PDF to put in another one.
 
@@ -8,7 +8,7 @@ It _DOES NOT_ create brand new PDF pages or alter content within a PDF page. The
 
 If you run into any issues using the program, have suggestions to improve it, or have anything else relevant regarding this program, please let me know and I will try and take a look to fix it.
 
-Email: neguizabal@browardhealth.org
+Email: ~~_REDACTED_~~
 You can find me on Teams as well, Nicholas Eguizabal.
 
 > _Note: Pressing the Escape key while the program is selected will close the program!_
